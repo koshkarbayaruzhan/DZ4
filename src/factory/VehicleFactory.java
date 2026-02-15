@@ -1,4 +1,5 @@
 package factory;
 
-public class VehicleFactory {
+public abstract class VehicleFactory {
+    public abstract IVehicle createVehicle();
 }
